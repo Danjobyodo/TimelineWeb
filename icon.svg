@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Timeline Trace icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b57d0"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="384" height="384" rx="96" fill="#0b0f19"/>
+  <path d="M256 88c83 0 150 67 150 150 0 113-150 286-150 286S106 351 106 238c0-83 67-150 150-150Z" fill="url(#g)"/>
+  <circle cx="256" cy="244" r="54" fill="#0b0f19"/>
+  <circle cx="256" cy="244" r="24" fill="#e5e7eb"/>
+</svg>

@@ -439,17 +439,16 @@ function ensureMap() {
   state.map = window.L.map("map", { zoomControl: true });
   state.map.setView([35.681236, 139.767125], 11);
 
-  // CARTO Dark Matter — no API key needed
+  // OpenStreetMap Standard Tile (styled dark via CSS) — no API key needed
   window.L.tileLayer(
-    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     {
       maxZoom: 19,
-      subdomains: "abcd",
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ' +
-        '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }
   ).addTo(state.map);
+
 
   state.map.on("click", () => hideToast());
 }

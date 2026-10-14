@@ -2,7 +2,7 @@
  * Caches app shell only. User JSON never passes through fetch().
  */
 
-const PRECACHE = "timeline-trace-local-v3";
+const PRECACHE = "timeline-trace-local-v4";
 
 const APP_SHELL = [
   "./",
